@@ -1,7 +1,9 @@
-Digtwit
-=======
+Digtwit - obsolete
+==================
 
-Digtwit is a very simple command-line tool in Java, that checks for a hashtag (#digmia in our case) in a user's friends feed on Twitter and retweets any messages mentioning that hashtag automatically. By following a user, you allow a user to be included in automatic retweets. It is meant to be run from cron. 
+Digtwit was a very simple command-line tool in Java, that checked for a hashtag in a user's friends feed on Twitter and retweets any messages mentioning that hashtag automatically. By following a user, you allow a user to be included in automatic retweets. It is meant to be run from cron. The use-case was that in a decentralized organization, anyone could tweet in the name of the organization.
+
+It is obsolete, because it does not conform to the latest Twitter API, so it does not work.
 
 Copying
 =======
@@ -11,7 +13,7 @@ This is a simple retweeting software. Uses
 is under LGPL license.
 
 This software (Digtwit) is public domain, developed
-by Juraj Bednar (juraj.bednar@digmia.com). It comes under
+by Juraj Bednar. It comes under
 absolutely no warranty. Test carefully before you use it.
 
 Usage
